@@ -1,1 +1,10 @@
 
+var i = 20;
+while (i <= 480){
+   var startX = i;
+  var startY = 20;
+  var endX = 480;
+  var endY = i;
+  line(startX, startY, endY, endX);
+i=i+10;
+}
